@@ -41,6 +41,7 @@ OperatingSystem operatingSystem2 = OperatingSystemFactory.getInstance("LINUX" , 
                 return new LinuxOperatingSystem(version,architecture);
             default:
                 throw new IllegalArgumentException("OS Not supported");
+
         }
     }
 }
